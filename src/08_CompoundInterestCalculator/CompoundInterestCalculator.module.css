@@ -1,0 +1,62 @@
+.calculator{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.calculator h1{
+    text-align: center;
+    color: hsl(0, 0%, 30%);
+    font-size: 3em;
+}
+
+.calculator form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+    max-width: 350px;
+    background-color: hsl(0, 0%, 90%);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
+}
+
+.calculator label{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.calculator input{
+    font-size: 2em;
+    width: 50%;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid hsl(0, 0%, 70%);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator button{
+    font-size: 1.5em;
+    background-color: hsl(120, 100%, 50%);
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.calculator button:hover{
+    background-color: hsl(120, 100%, 40%);
+}
+
+.total{
+    font-size: 2em;
+}
+
+.totalAmount{
+    font-weight: bold;
+    color: hsl(120, 100%, 50%);
+}
